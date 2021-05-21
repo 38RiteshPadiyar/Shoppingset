@@ -1,0 +1,189 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	 body{
+
+		background-color: #ecf0f1;
+	}
+
+	.main-div{
+		width: 100vw;
+		height: 100vh;
+		background-color: #ecf0f1;
+		position: relative;
+
+	}
+	.left-div{
+    
+    width: 55vw;
+    height: 60vh;
+    background-image: url('http://mobileimages.lowes.com/product/converted/500159/5001596157.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    margin-right: 50px;
+
+}
+.bottom-div{
+	width: 60vw;
+	height: 20vh;
+	position: relative;
+	background-color: none;
+	top: 480px;
+	left: 60px;
+	
+
+}
+
+ .lis img{
+ 	width: 8vw;
+ 	height: 12vh;
+ }
+
+ ul {
+ 	list-style: none;
+ }
+li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.right-div{
+	width: 35vw;
+    height: 80vh;
+    background-color: none;
+    position:absolute;
+   right:0;
+   top: 40px;  
+   margin-left: 10px;    
+}
+
+
+
+
+h1{
+	 font-family: 'Dosis', sans-serif;
+}
+
+h3{
+	padding-top: 20px;
+}
+.par{
+	padding-top: 50px;
+	font-size: 25px;
+}
+.par2{
+	padding-top:20px;
+	
+}
+
+.par2::after{
+
+	content: "";
+	position: "absolute";
+	width: 10vw;
+	border-bottom: 5px solid black;
+}
+
+.checked {
+  color: green;
+}
+.fa-star{
+	padding-top: 30px;
+
+}
+.rating{
+	color: green;
+}
+
+.dollar{
+	padding-top: 30px;
+}
+.cl{
+	padding-top: 20px;
+	letter-spacing: 2px;
+}
+.but1{
+       background-color: black;
+       color:white;
+	  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.but2{
+
+	  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.last-div{
+
+	width: 80vw;
+	height: 17vh;
+	background-color:none;
+	position: absolute;
+	left: 50px;
+    bottom:10px;
+
+	
+}
+.row{
+
+   display: inline-block;	 
+  width: 15%;
+  padding: 0 10px;
+  height: 17vh;
+}
+
+
+.bt p{
+	padding-top: 10px;
+}
+	.bt{
+
+		display: inline-block;
+	padding-top:20px;
+	padding-bottom:0px;
+	padding-left: 140px;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  /* For mobile phones: */
+  
+
+.right-div{
+	display: block;
+	font-size: 10px;
+}
+ 
+ .left-div {
+ 	width: 40vw;
+ 	height: 50vh;
+}
+
+.bt{
+
+	padding-left: 25px;
+	margin-top: 60px;
+
+}
+
+
+
+
+}
+
+	
+
+	
